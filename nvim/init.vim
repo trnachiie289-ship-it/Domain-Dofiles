@@ -1,153 +1,83 @@
-" Turn off backup file help file obvious than
 set nobackup
-set nowb
 set noswapfile
-" On normal, insert, visual, command
 set mouse=a
-" Use tab == 4 space
 set expandtab
 set tabstop=4
 set shiftwidth=4
-" Hiden symbol tab and space at head and tail
 set list
 set listchars=tab:\¦\
-" Fold code follow language
 set foldmethod=syntax
 set foldnestmax=1
 set foldlevelstart=5
-" Show number on the left
 set number
-" Search not distinguish uppercase and lowercase
 set ignorecase
-" autocomplete always show whether just one symbol
 set completeopt=menuone,noinsert,noselect
-" Auto save file when using command
 set autowrite
 set autowriteall
-" When we runing file it run command g++ name.cpp -o name
-set makeprg=g++\ %\ -o\ %:r
-" Format errors compiler to notification
 set errorformat=%f:%l:%c:%m
-" Auto pairs (), {}, []
 let g:AutoPairsMapCR = 0
-" Auto save when press escape
+set guicursor=a:block
+set synmaxcol=5000
+set lazyredraw
+set signcolumn=no
+set makeprg=g++\ %\ -o\ %:r
+set errorformat=%f:%l:%c:%m
+set helpheight=10
+set cursorline
+syntax on
+
 autocmd InsertLeave * silent! write
 autocmd BufLeave,FocusLost * silent! write
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
-" Regulate highlight syntax to 5000 so it avoid lag
-set synmaxcol=5000
-" Not draw screen when running
-set lazyredraw
-""''""""""""
 
-      
-autocmd BufNewFile,BufRead *.json set foldmethod=indent
-
-syntax on
-
-" =========================
-" Clipboard
-" =========================
 if has('win32')
     set clipboard=unnamed
 else
     set clipboard=unnamedplus
 endif
 
-" =========================
-" Auto reload file
-" =========================
+"ile
 autocmd CursorHold,CursorHoldI * checktime
 autocmd FocusGained,BufEnter * checktime
 
-" =========================
-" Floaterm
-" =========================
-nnoremap <F9> :FloatermToggle<CR>
 
-let g:floaterm_shell = '/bin/zsh'
+nnoremap <C-m> :FloatermToggle<CR>
+vnoremap // y/\v<c-r>=escape(@",'/\')<cr><cr>
+nnoremap /<cr> :noh<cr>
 
-" =========================
-" Resize pane
-" =========================
-nmap <M-Right> :vertical resize +1<CR>
-nmap <M-Left> :vertical resize -1<CR>
-nmap <M-Down> :resize +1<CR>
-nmap <M-Up> :resize -1<CR>
 
-" =========================
-" Search highlighted text
-" =========================
-vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+inoremap <silent><expr> <tab> pumvisible() ? "\<c-n>" : "\<tab>"
+inoremap <silent><expr> <s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>
 
-nnoremap /<CR> :noh<CR>
-
-" =========================
-" Popup menu
-" =========================
-inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <silent><expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
-" =========================
-" Move line
-" =========================
-vnoremap K :m '<-2<CR>gv=gv
-vnoremap J :m '>+1<CR>gv=gv
-
-" =========================
-" Word movement
-" =========================
-inoremap <C-Right> <Esc>ea
-inoremap <C-Left> <Esc>bi
-
-" =========================
-" coc.nvim Enter confirm
-" =========================
-inoremap <silent><expr> <CR> coc#pum#visible()
-            \ ? coc#pum#confirm()
-            \ : "\<CR>"
-
+vnoremap K :m '<-2<cr>gv=gv
+vnoremap J :m '>+1<cr>gv=gv
 
 call plug#begin(stdpath('config').'/plugged')
-
   Plug 'm4xshen/autoclose.nvim'
 
   Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
   Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
-
 " File browser
-  Plug 'preservim/nerdTree'
-  Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug 'ryanoasis/vim-devicons'
-  Plug 'unkiwii/vim-nerdtree-sync'
-  Plug 'jcharum/vim-nerdtree-syntax-highlight', {'branch': 'escape-keys'}
-
-" File search
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
 
 " Status bar
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
-" Terminal
+"inal
   Plug 'voldikss/vim-floaterm'
 
-" Code intellisense
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"ide/se'}
   Plug 'jiangmiao/auto-pairs'
-  Plug 'mattn/emmet-vim'
-  Plug 'preservim/nerdcommenter'
   Plug 'alvan/vim-closetag'
 
-" Code syntax highlight
+"ighht
   Plug 'sheerun/vim-polyglot'
   
 " Debugging
   Plug 'puremourning/vimspector'
 
-" Source code version control 
+"ion control 
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
   Plug 'airblade/vim-gitgutter'
@@ -156,155 +86,189 @@ call plug#begin(stdpath('config').'/plugged')
 " Fold 
   Plug 'tmhedberg/SimpylFold'
 
-" Extension
-"  curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-"  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 " Exchange text 
   Plug 'tommcdo/vim-exchange'
   Plug 'mg979/vim-visual-multi'
   Plug 'terryma/vim-multiple-cursors'
 
-" Snippet C++
-  Plug 'SirVer/ultisnips'
-
   
 " LSP + Autocomplete
   Plug 'neovim/nvim-lspconfig'
-  Plug 'hrsh7th/nvim-cmp'
-  Plug 'hrsh7th/cmp-nvim-lsp'
 
-" Fuzzy finder để list hàm
+"inder
   Plug 'nvim-lua/plenary.nvim'
-  Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
-
 " Highlight C++ ngon hơn
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Run code
   Plug 'akinsho/toggleterm.nvim', {'tag': '*'}
 
-  
   Plug 'terryma/vim-multiple-cursors'
 
+  Plug 'sphamba/smear-cursor.nvim'
+
+  Plug 'numToStr/Comment.nvim'
+
+  Plug 'lukas-reineke/indent-blankline.nvim'
+
+  Plug 'numToStr/Comment.nvim'
+  Plug 'ej-shafran/compile-mode.nvim'
+  Plug 'nvim-lua/plenary.nvim'
+
+  Plug 'nvim-tree/nvim-tree.lua'
+  Plug 'nvim-tree/nvim-web-devicons'
 call plug#end()
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugin Setting
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " 1. Kích hoạt Theme
 set termguicolors
 let g:nightflyTransparent = 0
 colorscheme nightfly
+let g:airline_theme='nightfly'
 
-
-let g:UltiSnipsJumpForwardTrigger="<Tab>"
-let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
-" Dòng này quan trọng: Tab cuối không nhảy nữa mà thoát snippet
-let g:UltiSnipsRemoveSelectModeMappings = 0
-
-" Default mapping
 let g:multi_cursor_use_default_mapping=0
 
-" Default mapping
+
 let g:multi_cursor_select_all_word_key = '<A-g>'
 
-let g:multi_cursor_select_all_key      = 'g<A-n>'
+le'g<A-n>'
 let g:multi_cursor_next_key            = '<C-b>'
 let g:multi_cursor_prev_key            = '<C-g>'
 let g:multi_cursor_skip_key            = '<C-t>'
 let g:multi_cursor_quit_key            = '<Esc>'
-" 2. Tùy chỉnh lại màu chữ cho đẹp hơn (Cách 1)
-" 3. Cấu hình Airline & Bufferline
-" --- Tùy chỉnh màu sắc đậm và sắc nét (Style Gitpod Dark) ---
-" Đặt đoạn này dưới dòng colorscheme nightfly
 
-highlight Normal       guifg=#FFFFFF            " Chữ thường trắng tinh cho rõ
-highlight Comment      guifg=#484848  gui=bold  " Comment LightGreen
-highlight Constant     guifg=#2FDBEB  gui=bold  " Number  Deepskyblue
-highlight String       guifg=#E0FFFF            " String  LightCyan
-highlight Function     guifg=#FFFF00  gui=bold  " Tên Function Yellow
-highlight Keyword      guifg=#ED1ADC  gui=bold  " const, let, using (Tím hồng)
-highlight Statement    guifg=#C586C0  gui=bold  " return, if, else (Ép màu đậm)
-highlight Type         guifg=#05E605  gui=bold  " int, float, namespace (Xanh ngọc)
-highlight Identifier   guifg=#2B92FF            " cout, std, biến (Xanh sky)
-highlight PreProc      guifg=#FFFFFF            " #include White
-highlight Operator     guifg=#00CED1            " Các dấu << >> ; =
+" =========================
+" Basic Highlight
+" =========================
 
-highlight cppStatement guifg=#C586C0 gui=bold
-highlight cppModifier  guifg=#C586C0 gui=bold
+highlight Normal       guifg=#FFFFFF
+highlight Comment      guifg=#32CD32 gui=bold
+highlight Constant     guifg=#FFFFFF gui=bold
+highlight String       guifg=#FFFFFF
+highlight Character    guifg=#FFFFFF
+highlight Number       guifg=#FFFFFF gui=bold
+
+highlight Identifier   guifg=#2B92FF
+highlight Function     guifg=#FFFF00 gui=bold
+
+highlight Statement    guifg=#ED1ADC gui=bold
+highlight Keyword      guifg=#ED1ADC gui=bold
+highlight Conditional  guifg=#ED1ADC gui=bold
+highlight Repeat       guifg=#ED1ADC gui=bold
+
+highlight Type         guifg=#FFFF00 gui=bold
+highlight StorageClass guifg=#ED1ADC gui=bold
+
+highlight PreProc      guifg=#FFFFFF
+highlight Include      guifg=#FFFFFF
+highlight Define       guifg=#FFFFFF
+
+highlight Operator     guifg=#00CED1
+
+" =========================
+" C/C++
+" =========================
+
+highlight cStatement   guifg=#ED1ADC gui=bold
+highlight cRepeat      guifg=#ED1ADC gui=bold
+highlight cConditional guifg=#ED1ADC gui=bold
+highlight cppStatement guifg=#ED1ADC gui=bold
+highlight cppModifier  guifg=#ED1ADC gui=bold
+highlight cppType      guifg=#FFFF00 gui=bold
 
 
+set guicursor=n-v-c:block-CursorNormal
+set guicursor+=i:block-CursorInsert
+set guicursor+=r:block-CursorReplace
+set guicursor+=v:block-CursorVisual
 
+highlight CursorNormal  guifg=black guibg=#ffffff
+highlight CursorInsert  guifg=black guibg=#00ff00
+highlight CursorReplace guifg=white guibg=#ff0000
+highlight CursorVisual  guifg=black guibg=#FF00FF
 
-let g:airline_theme='nightfly'
-
-autocmd VimEnter * call s:setup_bufferline()
-function! s:setup_bufferline() abort
-lua<<EOF
-require("bufferline").setup{
-  options = {
-    indicator = { style = 'none' },
-    diagnostics = "coc",
-  }
-}
-EOF
-endfunction
-
-" Disable automatic comment in newline
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
-
-" Close buffer without exiting vim 
 nnoremap <silent> <leader>bd :bp \| sp \| bn \| bd<CR>
 
-" Other settings
 for setting_file in split(glob(stdpath('config').'/settings/*.vim'))
   execute 'source' setting_file
 endfor
 
-
-nnoremap <F5> :call RunCpp()<CR>
-
-
-function! RunCpp()
-  let file = expand('%')
-  let out  = expand('%:r') 
-  let errors = system('g++ ' . file . ' -o ' . out . ' 2>&1')
-  if v:shell_error != 0
-    cexpr errors
-    copen
-  else
-let cmd = 'zsh -c "./' . out . ' && echo \"\" && echo \"[Press any key to close]\"; read -k1 2>/dev/null; exit"'
-    belowright split
-    resize 15
-    execute 'terminal ' . cmd
-    startinsert
-  endif
-endfunction
-
 tnoremap <Esc> <C-\><C-q>
-
 
 nnoremap <F6> :w<CR>:!g++ % -o %:r -L/usr/local/lib -I/usr/local/include -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 && ./%:r<CR>
 
+nnoremap <C-]> :bnext<CR>
+nnoremap <C-[> :bprevious<CR>
+
+
+let g:VM_maps = {}
+let g:VM_maps['Add Cursor At Pos'] = '<Space>' 
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<Tab>"
+
+
+lua << EOF
+require("ibl").setup({
+  indent = { char = "│" },
+  scope = { enabled = true },
+})
+EOF
+
+lua << EOF
+require('smear_cursor').setup({
+})
+EOF
 
 lua << EOF
 require("autoclose").setup()
 EOF
 
-nnoremap <C-b> :NERDTreeToggle<CR>
+source ~/.config/nvim/plugged/nvimtree/nvimtree-config.vim
 
-nnoremap <C-.> :bnext<CR>
-nnoremap <C-,> :bprevious<CR>
+lua << EOF
+vim.g.compile_mode = {
+    default_command = "g++ -std=c++17 -o ",
+    baleia_setup = false,
+    bang_expansion = false,
+    directory_change_matchers = {},
+    error_regexp_table = {},
+    error_ignore_file_list = {},
+    error_threshold = require("compile-mode").level.WARNING,
+    auto_jump_to_first_error = false,
+    error_locus_highlight = 500,
+    use_diagnostics = false,
+    recompile_no_fail = false,
+    ask_about_save = false,
+    ask_to_interrupt = false,
+    buffer_name = "*Compile Open Source*",
+    time_format = "%a %b %e %H:%M:%S",
+    hidden_output = {},
+    environment = nil,
+    clear_environment = false,
+    input_word_completion = true,
+    hidden_buffer = false,
+    focus_compilation_buffer = true,
+    auto_scroll = false,
+    use_circular_error_navigation = false,
+    debug = false,
+    use_pseudo_terminal = true,
+}
+EOF
 
+lua << EOF
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "compilation",
+  callback = function()
+    vim.cmd("wincmd J")   -- di chuyển cửa sổ hiện tại xuống dưới cùng
+vim.api.nvim_win_set_height(0, 10)  -- chiều cao 15 dòng, chỉnh tùy ý
+  end,
+})
+EOF
 
+lua << EOF
+require('bufferline').setup({})
+EOF
 
-let g:VM_maps = {}
-let g:VM_maps['Add Cursor At Pos'] = '<Space>' 
-inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+source ~/.config/nvim/plugged/nvimtree/nvimtree-config.vim
+source ~/.config/nvim/plugged/RunProgramming.vim

@@ -1,3 +1,8 @@
 [global]
-    origin = bottom-center
+    origin = top-right
     offset = (20x20)
+    timeout - 0
+[urgency_critical]
+    background = "#ff0000"
+    foreground = "#ffffff"
+    timeout = 0  
