@@ -1,0 +1,23 @@
+# Browser
+mozilla/
+
+# Unity
+unityhub/
+unity3d/
+
+# Office
+libreoffice/
+
+# Mail
+evolution/
+
+# Blender
+blender/
+
+# Gnome cache/data
+gnome-initial-setup/
+
+# Temporary / cache
+*.log
+*.tmp
+cache/
