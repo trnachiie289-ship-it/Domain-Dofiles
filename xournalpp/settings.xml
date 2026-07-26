@@ -16,7 +16,7 @@
   <property name="displayDpi" value="-1"/>
   <property name="mainWndWidth" value="954"/>
   <property name="mainWndHeight" value="1167"/>
-  <property name="maximized" value="false"/>
+  <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
   <property name="sidebarWidth" value="151"/>
@@ -151,7 +151,7 @@
   <property name="latexSettings.externalEditorAutoConfirm" value="false"/>
   <property name="latexSettings.externalEditorCmd" value=""/>
   <property name="latexSettings.temporaryFileExt" value="tex"/>
-  <property name="font" font="Sans" size="12"/>
+  <property name="font" font="Sans Bold" size="12"/>
   <data name="buttonConfig">
     <data name="default">
       <attribute name="color" type="hex" value="ff000000"/>
@@ -187,6 +187,10 @@
     </data>
   </data>
   <data name="deviceClasses">
+    <data name="2.4G Wireless Mouse">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
     <data name="FTCS0038:00 2808:0106 Touchpad">
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="6"/>
@@ -197,7 +201,7 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="eraser"/>
     <data name="drawArrow"/>
     <data name="drawCoordinateSystem"/>
     <data name="drawDoubleArrow"/>
@@ -206,7 +210,7 @@
     <data name="drawSpline"/>
     <data name="eraser">
       <attribute name="size" type="string" value="MEDIUM"/>
-      <attribute name="type" type="string" value="default"/>
+      <attribute name="type" type="string" value="whiteout"/>
     </data>
     <data name="hand"/>
     <data name="highlighter">

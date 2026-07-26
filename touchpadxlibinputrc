@@ -3,5 +3,5 @@ clickMethodAreas=false
 clickMethodClickfinger=true
 middleEmulation=true
 naturalScroll=true
-pointerAcceleration=0.6
+pointerAcceleration=0.8
 tapToClick=true

@@ -19,4 +19,4 @@ require("nvim-tree").setup({
 })
 
 EOF
-nnoremap <C-i> :NvimTreeToggle<CR>
+" noremap <C-o> :NvimTreeToggle<CR>

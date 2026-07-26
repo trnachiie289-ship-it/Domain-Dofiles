@@ -1,5 +1,7 @@
 [Added Associations]
 application/vnd.microsoft.portable-executable=nvim.desktop;
+application/x-desktop=steam.desktop.desktop;
 
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
+application/x-desktop=steam.desktop.desktop;

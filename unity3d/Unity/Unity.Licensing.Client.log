@@ -1,0 +1,675 @@
+2026-07-12 02:45:12.732 - [ 13057] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-chie289 --cloudEnvironment production
+2026-07-12 02:45:12.760 - [ 13057] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: 2fcb1d7cacaafcda0861d089ed14b2b8
+2026-07-12 02:45:12.763 - [ 13057] - [    13] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-chie289 created (on thread: 13)
+2026-07-12 02:45:12.767 - [ 13057] - [    14] - WARN  - [Unity.Licensing.Client.Services.Licensing.LicensingServiceConfiguration] Floating license server is not configured
+2026-07-12 02:45:12.771 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 7)
+2026-07-12 02:45:12.771 - [ 13057] - [     5] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 1)
+2026-07-12 02:45:12.776 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2026-07-12 02:45:12.776 - [ 13057] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 02:45:12.778 - [ 13057] - [     5] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:   (task id = 1, ct ref = 1997173)
+2026-07-12 02:45:12.778 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 7)
+2026-07-12 02:45:12.779 - [ 13057] - [     5] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0006148 (task id = 1, ct ref = 1997173)
+2026-07-12 02:45:12.779 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2026-07-12 02:45:12.779 - [ 13057] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 02:45:12.785 - [ 13057] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 02:45:12.790 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: 19b8d8883fb74759903bce15abcc8087
+2026-07-12 02:45:12.808 - [ 13057] - [    14] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+
+2026-07-12 02:45:12.809 - [ 13057] - [    14] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2026-07-12 02:45:12.809 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2026-07-12 02:45:12.809 - [ 13057] - [    14] - WARN  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Unable to find valid licenses and remote licensing service is not configured
+2026-07-12 02:45:12.809 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2026-07-12 02:45:12.879 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: Hub 3.19.5 (LocalIPC/1.17.4)
+2026-07-12 02:45:12.901 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Handshake successful
+2026-07-12 02:45:12.902 - [ 13057] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2026-07-12 02:45:12.907 - [ 13057] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 02:45:12.908 - [ 13057] - [     5] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2026-07-12 02:45:12.911 - [ 13057] - [    11] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2026-07-12 02:45:12.936 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 2)
+2026-07-12 02:45:12.941 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:   (task id = 2, ct ref = 41686088)
+2026-07-12 02:45:12.941 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000430 (task id = 2, ct ref = 41686088)
+2026-07-12 02:45:12.955 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 0 groups
+2026-07-12 02:45:12.970 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 3)
+2026-07-12 02:45:12.970 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:   (task id = 3, ct ref = 28420398)
+2026-07-12 02:45:12.970 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000143 (task id = 3, ct ref = 28420398)
+2026-07-12 02:45:12.971 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 0 groups
+2026-07-12 02:45:12.989 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 4)
+2026-07-12 02:45:12.990 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:   (task id = 4, ct ref = 24385663)
+2026-07-12 02:45:12.990 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000433 (task id = 4, ct ref = 24385663)
+2026-07-12 02:45:12.990 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 0 groups
+2026-07-12 02:45:12.996 - [ 13057] - [    12] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 02:45:12.997 - [ 13057] - [    12] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Running in production mode
+2026-07-12 02:45:12.998 - [ 13057] - [    12] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client product version: 1.17.4+4293ba1
+2026-07-12 02:45:12.998 - [ 13057] - [    12] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client assembly version: 1.17.4.0
+2026-07-12 02:45:12.998 - [ 13057] - [    12] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] File version: 1.17.4 (/opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client.dll)
+2026-07-12 02:45:13.000 - [ 13057] - [    12] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Current OS: Linux 7.0.0-27-generic #27-Ubuntu SMP PREEMPT_DYNAMIC Thu Jun 18 19:13:49 UTC 2026
+2026-07-12 02:45:13.387 - [ 13057] - [    23] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2026-07-12 02:45:13.389 - [ 13057] - [    23] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/chie289/.config/unity3d/Unity/config/production.json"
+2026-07-12 02:45:13.646 - [ 13057] - [    16] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] New PACL file is written successfully from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl"
+2026-07-12 02:45:13.650 - [ 13057] - [    16] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2026-07-12 02:45:13.651 - [ 13057] - [    16] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 51, version: 1.0
+2026-07-12 02:45:17.981 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 02:45:18.063 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 5)
+2026-07-12 02:45:18.064 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:   (task id = 5, ct ref = 60288126)
+2026-07-12 02:45:18.064 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000362 (task id = 5, ct ref = 60288126)
+2026-07-12 02:45:18.064 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 0 groups
+2026-07-12 02:45:18.085 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 02:45:18.089 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-6 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [404]:  Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 02:45:18.112 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-7 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 0 entitlements
+2026-07-12 02:45:18.142 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-8 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 0 entitlements
+2026-07-12 02:45:18.145 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 02:45:18.145 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-9 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [404]:  Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 02:45:18.313 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-10 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 0 entitlements
+2026-07-12 02:45:18.328 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-11 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 0 entitlements
+2026-07-12 02:45:23.000 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 02:45:37.656 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-12 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 0 entitlements
+2026-07-12 02:45:37.662 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 30758400 seconds)
+2026-07-12 02:45:37.666 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-13 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  (null)
+2026-07-12 02:45:37.682 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 6)
+2026-07-12 02:45:37.683 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:   (task id = 6, ct ref = 17332212)
+2026-07-12 02:45:37.683 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 0 license files in 00:00:00.0000363 (task id = 6, ct ref = 17332212)
+2026-07-12 02:45:37.684 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-14 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 0 groups
+2026-07-12 02:45:38.004 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 02:45:38.699 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2026-07-12 02:45:39.387 - [ 13057] - [    16] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Trying to write updated entitlement license file...
+2026-07-12 02:45:39.389 - [ 13057] - [    16] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Successfully updated license file
+2026-07-12 02:45:39.389 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = UpdateLicenseOperation, task id = 7)
+2026-07-12 02:45:39.470 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 02:45:39.470 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 7, ct ref = 11611730)
+2026-07-12 02:45:39.470 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 02:45:39.475 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0045798 (task id = 7, ct ref = 11611730)
+2026-07-12 02:45:39.499 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 02:45:39.508 - [ 13057] - [    16] - INFO  - [Unity.Licensing.Client.Services.Notification.NotificationHub] Sending notification to 1 client: [LicenseUpdate] License updated: Your license was updated sent on 2026-07-12T02:45:39.5061801Z[{"EntitlementGroupId":"18968465019301-UnityPersonal","ProductName":"Unity Personal","UpdateType":"Added","Reason":"EntitlementGroupAdded"},{"EntitlementGroupId":"organization-all-asset-store-upm-packages","ProductName":"Asset Store","UpdateType":"Added","Reason":"EntitlementGroupAdded"}]
+2026-07-12 02:45:39.509 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-15 | Sending ActivationManagementResponse for request ActivationManagementRequest from Hub 3.19.5 (LocalIPC/1.17.4) [207]:  Successfully processed activation management call
+2026-07-12 02:45:39.513 - [ 13057] - [    21] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 23.01:13:20.4907657
+2026-07-12 02:45:39.525 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-16 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 02:45:39.530 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 8)
+2026-07-12 02:45:39.543 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 02:45:39.543 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 8, ct ref = 8761922)
+2026-07-12 02:45:39.543 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 02:45:39.543 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002623 (task id = 8, ct ref = 8761922)
+2026-07-12 02:45:39.557 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-17 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 02:45:39.573 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-18 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 02:45:43.012 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 02:46:10.295 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 9)
+2026-07-12 02:46:10.307 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 02:46:10.307 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 9, ct ref = 5695327)
+2026-07-12 02:46:10.307 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 02:46:10.307 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001492 (task id = 9, ct ref = 5695327)
+2026-07-12 02:46:10.308 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-19 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 02:46:10.322 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-20 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 02:46:13.017 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 02:46:18.346 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-21 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 02:46:23.022 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 03:45:13.188 - [ 13057] - [    18] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2026-07-12 03:45:13.189 - [ 13057] - [    18] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/chie289/.config/unity3d/Unity/config/production.json"
+2026-07-12 03:45:13.306 - [ 13057] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 04:19:09.719 - [ 13057] - [    18] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeHandler#1] Notification channel with sessionId: 6ff4c25c569b442ebfaf2d649a43c975 is shutting down
+2026-07-12 04:19:09.721 - [ 13057] - [    18] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2026-07-12 04:19:09.723 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Detected client disconnect
+2026-07-12 04:19:09.723 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] End accepting requests
+2026-07-12 04:19:09.723 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #1)
+2026-07-12 04:19:09.724 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Last active session ended.
+2026-07-12 04:19:09.725 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Starting licensing client's exit timer
+2026-07-12 04:19:09.725 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 04:19:09.725 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server is shutting down (thread: 7)
+2026-07-12 04:19:09.725 - [ 13057] - [     9] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 04:19:09.729 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server has shutdown
+2026-07-12 04:19:09.735 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server is shutting down (thread: 7)
+2026-07-12 04:19:09.738 - [ 13057] - [     7] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server has shutdown
+2026-07-12 04:19:09.738 - [ 13057] - [    13] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Releasing mutex Unity-LicenseClient-chie289 (thread: 13)
+2026-07-12 12:59:16.952 - [  7919] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-chie289 --cloudEnvironment production
+2026-07-12 12:59:16.992 - [  7919] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: 1032c5a3043473835cf61fb4e09d1897
+2026-07-12 12:59:16.995 - [  7919] - [    10] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-chie289 created (on thread: 10)
+2026-07-12 12:59:16.998 - [  7919] - [    11] - WARN  - [Unity.Licensing.Client.Services.Licensing.LicensingServiceConfiguration] Floating license server is not configured
+2026-07-12 12:59:17.004 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 8)
+2026-07-12 12:59:17.004 - [  7919] - [     6] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 1)
+2026-07-12 12:59:17.014 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2026-07-12 12:59:17.014 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 12:59:17.017 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 8)
+2026-07-12 12:59:17.017 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2026-07-12 12:59:17.018 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 12:59:17.025 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 12:59:17.030 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: f30a45dc8107472cbab15d9959b52ea2
+2026-07-12 12:59:17.036 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2026-07-12 12:59:17.037 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2026-07-12 12:59:17.117 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: Hub 3.19.5 (LocalIPC/1.17.4)
+2026-07-12 12:59:17.140 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Handshake successful
+2026-07-12 12:59:17.146 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 12:59:17.147 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2026-07-12 12:59:17.187 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 2)
+2026-07-12 12:59:17.189 - [  7919] - [     6] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.192 - [  7919] - [     6] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 1, ct ref = 36181605)
+2026-07-12 12:59:17.193 - [  7919] - [     6] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.196 - [  7919] - [     6] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Cancellation requested. Aborting resolver build (task id = 1, latest update task id = 2, ct ref = 36181605)
+2026-07-12 12:59:17.197 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.198 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 2, ct ref = 7878550)
+2026-07-12 12:59:17.198 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.198 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0004067 (task id = 2, ct ref = 7878550)
+2026-07-12 12:59:17.207 - [  7919] - [    11] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] UpdateResolver task was canceled by newer request. Waiting for the new update task to complete (canceled task id = 1, newer task id = 2)
+2026-07-12 12:59:17.234 - [  7919] - [    11] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.234 - [  7919] - [    11] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+/home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.235 - [  7919] - [    11] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2026-07-12 12:59:17.238 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:17.250 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 30758400 seconds)
+2026-07-12 12:59:17.253 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending AccessTokenResponse for request AccessTokenRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  (null)
+2026-07-12 12:59:17.269 - [  7919] - [     9] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 12:59:17.269 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 3)
+2026-07-12 12:59:17.270 - [  7919] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Running in production mode
+2026-07-12 12:59:17.270 - [  7919] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client product version: 1.17.4+4293ba1
+2026-07-12 12:59:17.271 - [  7919] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client assembly version: 1.17.4.0
+2026-07-12 12:59:17.271 - [  7919] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] File version: 1.17.4 (/opt/unityhub/UnityLicensingClient_V1/Unity.Licensing.Client.dll)
+2026-07-12 12:59:17.272 - [  7919] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Current OS: Linux 7.0.0-27-generic #27-Ubuntu SMP PREEMPT_DYNAMIC Thu Jun 18 19:13:49 UTC 2026
+2026-07-12 12:59:17.280 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.280 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 3, ct ref = 24518687)
+2026-07-12 12:59:17.280 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.281 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002384 (task id = 3, ct ref = 24518687)
+2026-07-12 12:59:17.283 - [  7919] - [    20] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2026-07-12 12:59:17.292 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:17.292 - [  7919] - [    20] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2026-07-12 12:59:17.301 - [  7919] - [    20] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Local PACL revision: 51
+2026-07-12 12:59:17.319 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 4)
+2026-07-12 12:59:17.353 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.354 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 4, ct ref = 13412900)
+2026-07-12 12:59:17.354 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.354 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001734 (task id = 4, ct ref = 13412900)
+2026-07-12 12:59:17.355 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:17.357 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 5)
+2026-07-12 12:59:17.371 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.371 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 5, ct ref = 55197339)
+2026-07-12 12:59:17.371 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:17.372 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001573 (task id = 5, ct ref = 55197339)
+2026-07-12 12:59:17.373 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-6 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:18.257 - [  7919] - [    17] - WARN  - [PackageService.HttpRequests] Handled response: [304 | Not Modified | ] from request: [GET | https://license.unity3d.com/licenses/v1/packages/acl | ]
+2026-07-12 12:59:18.263 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Skipping download. No difference between local and remote ETag (uri: "https://license.unity3d.com/licenses/v1/packages/acl", ETag: "12328dbb62b36aae92e9ee5f87191306")
+2026-07-12 12:59:18.265 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2026-07-12 12:59:18.266 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 51, version: 1.0
+2026-07-12 12:59:18.803 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2026-07-12 12:59:19.300 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Trying to write updated entitlement license file...
+2026-07-12 12:59:19.302 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Successfully updated license file
+2026-07-12 12:59:19.302 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = UpdateLicenseOperation, task id = 6)
+2026-07-12 12:59:19.313 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:19.313 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 6, ct ref = 64232406)
+2026-07-12 12:59:19.313 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:19.313 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002905 (task id = 6, ct ref = 64232406)
+2026-07-12 12:59:19.316 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 12:59:19.317 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] File watcher is locked (count = 2). Skipping resolver reload
+2026-07-12 12:59:19.338 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 12:59:19.344 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-7 | Sending ActivationManagementResponse for request ActivationManagementRequest from Hub 3.19.5 (LocalIPC/1.17.4) [207]:  Successfully processed activation management call
+2026-07-12 12:59:19.356 - [  7919] - [    20] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:59:40.6510940
+2026-07-12 12:59:19.499 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 7)
+2026-07-12 12:59:19.507 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:19.507 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 7, ct ref = 54698566)
+2026-07-12 12:59:19.507 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:19.507 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001333 (task id = 7, ct ref = 54698566)
+2026-07-12 12:59:19.508 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-8 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:19.546 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 12:59:19.550 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-9 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [404]:  Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 12:59:19.675 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-10 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 12:59:19.765 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 12:59:19.765 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-11 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [404]:  Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 12:59:19.859 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-12 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 12:59:20.317 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 8)
+2026-07-12 12:59:20.342 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:20.342 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 8, ct ref = 66572865)
+2026-07-12 12:59:20.342 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:20.343 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001710 (task id = 8, ct ref = 66572865)
+2026-07-12 12:59:20.343 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-13 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:20.499 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-14 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 12:59:22.056 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 12:59:42.309 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 9)
+2026-07-12 12:59:42.321 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:42.322 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 9, ct ref = 47165614)
+2026-07-12 12:59:42.322 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 12:59:42.322 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0004032 (task id = 9, ct ref = 47165614)
+2026-07-12 12:59:42.323 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-15 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 12:59:42.654 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-16 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 12:59:47.062 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:00:19.889 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-17 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:00:22.149 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:02:03.028 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-18 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:02:03.056 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-19 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:02:03.325 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #3)
+2026-07-12 13:02:03.328 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] new pipe session: 060609eae932449285d4fcb091f8a420
+2026-07-12 13:02:03.328 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #2)
+2026-07-12 13:02:03.328 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Start accepting requests
+2026-07-12 13:02:03.333 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-1 | Sending ApiErrorResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [505]:  Unsupported protocol version '1.18.1'.
+2026-07-12 13:02:03.334 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Detected client disconnect
+2026-07-12 13:02:03.334 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] End accepting requests
+2026-07-12 13:02:03.334 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #2)
+2026-07-12 13:02:03.337 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2026-07-12 13:02:03.338 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2026-07-12 13:02:03.988 - [  8351] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-chie289-6000.5.3
+2026-07-12 13:02:03.998 - [  8351] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: a7054d69dd90f5ed8abc2c3b625011ff
+2026-07-12 13:02:04.001 - [  8351] - [    10] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-chie289-6000.5.3 created (on thread: 10)
+2026-07-12 13:02:04.005 - [  8351] - [    11] - WARN  - [Unity.Licensing.Client.Services.Licensing.LicensingServiceConfiguration] Floating license server is not configured
+2026-07-12 13:02:04.010 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 6)
+2026-07-12 13:02:04.011 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 1)
+2026-07-12 13:02:04.022 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2026-07-12 13:02:04.022 - [  8351] - [    13] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 13:02:04.038 - [  8351] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Running in production mode
+2026-07-12 13:02:04.039 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 6)
+2026-07-12 13:02:04.039 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2026-07-12 13:02:04.039 - [  8351] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 13:02:04.054 - [  8351] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client product version: 1.18.1+9fbee8e
+2026-07-12 13:02:04.055 - [  8351] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client assembly version: 1.18.1.0
+2026-07-12 13:02:04.055 - [  8351] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] File version: 1.18.1 (/home/chie289/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.dll)
+2026-07-12 13:02:04.059 - [  8351] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Current OS: Linux 7.0.0-27-generic #27-Ubuntu SMP PREEMPT_DYNAMIC Thu Jun 18 19:13:49 UTC 2026
+2026-07-12 13:02:04.204 - [  8351] - [    19] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 13:02:04.210 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: ffa2faf94aaa448390a597e70858822a
+2026-07-12 13:02:04.212 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:04.213 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2026-07-12 13:02:04.213 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2026-07-12 13:02:04.215 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 1, ct ref = 36181605)
+2026-07-12 13:02:04.216 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:04.220 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0041934 (task id = 1, ct ref = 36181605)
+2026-07-12 13:02:04.253 - [  8351] - [    11] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:04.254 - [  8351] - [    11] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+/home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:04.255 - [  8351] - [    11] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2026-07-12 13:02:04.275 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1)
+2026-07-12 13:02:04.296 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2026-07-12 13:02:04.301 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Handshake successful
+2026-07-12 13:02:04.303 - [  8351] - [    24] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 13:02:04.304 - [  8351] - [    18] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2026-07-12 13:02:04.306 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2026-07-12 13:02:04.308 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31535998 seconds)
+2026-07-12 13:02:04.311 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  (null)
+2026-07-12 13:02:04.313 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Local PACL revision: 51
+2026-07-12 13:02:04.327 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:02:04.334 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:02:04.351 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending UpdateLicenseResponseV2 for request UpdateLicenseRequestV2 from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [202]:  Request accepted.
+2026-07-12 13:02:04.354 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:02:04.354 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:02:04.357 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2026-07-12 13:02:05.074 - [  8351] - [     8] - WARN  - [PackageService.HttpRequests] Handled response: [304 | Not Modified | ] from request: [GET | https://license.unity3d.com/licenses/v1/packages/acl | ]
+2026-07-12 13:02:05.081 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Skipping download. No difference between local and remote ETag (uri: "https://license.unity3d.com/licenses/v1/packages/acl", ETag: "12328dbb62b36aae92e9ee5f87191306")
+2026-07-12 13:02:05.082 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2026-07-12 13:02:05.083 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 51, version: 1.0
+2026-07-12 13:02:05.271 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Trying to write updated entitlement license file...
+2026-07-12 13:02:05.273 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Successfully updated license file
+2026-07-12 13:02:05.276 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:02:05.277 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] License file change detected. Reloading the resolver
+2026-07-12 13:02:05.277 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = FileWatcher, task id = 10)
+2026-07-12 13:02:05.279 - [  8351] - [     8] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] ulf update failed. Details: No ULF license found.
+2026-07-12 13:02:05.279 - [  8351] - [     8] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] floating update failed. Details: Unable to update floating licenses because the floating licensing is not enabled
+2026-07-12 13:02:05.280 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = UpdateLicenseOperation, task id = 2)
+2026-07-12 13:02:05.287 - [  8351] - [    22] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:02:05.288 - [  8351] - [    22] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] File watcher is locked (count = 1). Skipping resolver reload
+2026-07-12 13:02:05.289 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:05.290 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+tLicense.xml (task id = 2, ct ref = 57095957)
+2026-07-12 13:02:05.290 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:05.290 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 10, ct ref = 59782618)
+2026-07-12 13:02:05.290 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:05.290 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002767 (task id = 2, ct ref = 57095957)
+2026-07-12 13:02:05.290 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001579 (task id = 10, ct ref = 59782618)
+2026-07-12 13:02:05.291 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:02:05.292 - [  7919] - [    17] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:56:54.7076984
+2026-07-12 13:02:05.327 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:02:05.347 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:56:54.6603424
+2026-07-12 13:02:07.218 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:02:09.194 - [  8351] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:02:34.292 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-20 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:02:37.224 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:02:59.045 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 11)
+2026-07-12 13:02:59.053 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:59.054 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 11, ct ref = 16749574)
+2026-07-12 13:02:59.054 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:02:59.054 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001565 (task id = 11, ct ref = 16749574)
+2026-07-12 13:02:59.055 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-21 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 13:02:59.072 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-22 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:03:02.255 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:08.860 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 12)
+2026-07-12 13:04:08.873 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:08.873 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 12, ct ref = 33879130)
+2026-07-12 13:04:08.873 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:08.873 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001912 (task id = 12, ct ref = 33879130)
+2026-07-12 13:04:08.874 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-23 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 13:04:08.889 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-24 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:12.265 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:20.612 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-25 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:22.270 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:22.871 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-26 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:23.775 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-27 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:27.275 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:31.387 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 13)
+2026-07-12 13:04:31.399 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:31.399 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 13, ct ref = 54263592)
+2026-07-12 13:04:31.400 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:31.400 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0004678 (task id = 13, ct ref = 54263592)
+2026-07-12 13:04:31.401 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-28 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 13:04:31.467 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-29 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:32.279 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:38.483 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-30 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:38.502 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-31 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:38.629 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #4)
+2026-07-12 13:04:38.631 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] new pipe session: e704d0cf2bef43e7b494fe458277c8c6
+2026-07-12 13:04:38.632 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #3)
+2026-07-12 13:04:38.632 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] Start accepting requests
+2026-07-12 13:04:38.633 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] REQ-1 | Sending ApiErrorResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [505]:  Unsupported protocol version '1.18.1'.
+2026-07-12 13:04:38.634 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] Detected client disconnect
+2026-07-12 13:04:38.634 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] End accepting requests
+2026-07-12 13:04:38.634 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #3)
+2026-07-12 13:04:38.634 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] Disposing named pipe
+2026-07-12 13:04:38.634 - [  7919] - [    26] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#3] Disposing named pipe
+2026-07-12 13:04:38.635 - [  8351] - [    19] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #3)
+2026-07-12 13:04:38.638 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] new pipe session: 5719d5da84424cb5bbca63e14b6a82cf
+2026-07-12 13:04:38.638 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #2)
+2026-07-12 13:04:38.638 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Start accepting requests
+2026-07-12 13:04:38.639 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1)
+2026-07-12 13:04:38.640 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Handshake successful
+2026-07-12 13:04:38.642 - [  8351] - [     5] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #3)
+2026-07-12 13:04:38.642 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31535999 seconds)
+2026-07-12 13:04:38.642 - [  8351] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #2)
+2026-07-12 13:04:38.643 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  (null)
+2026-07-12 13:04:38.645 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:04:38.645 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-3 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:04:38.646 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-4 | Sending UpdateLicenseResponseV2 for request UpdateLicenseRequestV2 from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [202]:  Request accepted.
+2026-07-12 13:04:38.646 - [  8351] - [    17] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2026-07-12 13:04:38.648 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:04:38.648 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-5 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:04:39.211 - [  8351] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Resource temporarily unavailable (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:40.731 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeHandler#2] Notification channel with sessionId: d9f332a1160642a1b80e027726a257b6 is shutting down
+2026-07-12 13:04:40.731 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Detected client disconnect
+2026-07-12 13:04:40.732 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] End accepting requests
+2026-07-12 13:04:40.732 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #2)
+2026-07-12 13:04:40.732 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #2)
+2026-07-12 13:04:40.734 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2026-07-12 13:04:40.734 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2026-07-12 13:04:42.307 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:42.559 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Trying to write updated entitlement license file...
+2026-07-12 13:04:42.560 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Successfully updated license file
+2026-07-12 13:04:42.560 - [  8351] - [     8] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] ulf update failed. Details: No ULF license found.
+2026-07-12 13:04:42.560 - [  8351] - [     8] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] floating update failed. Details: Unable to update floating licenses because the floating licensing is not enabled
+2026-07-12 13:04:42.561 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = UpdateLicenseOperation, task id = 3)
+2026-07-12 13:04:42.561 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:04:42.562 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] License file change detected. Reloading the resolver
+2026-07-12 13:04:42.562 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = FileWatcher, task id = 14)
+2026-07-12 13:04:42.563 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:04:42.563 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] File watcher is locked (count = 1). Skipping resolver reload
+2026-07-12 13:04:42.572 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:42.572 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 3, ct ref = 57605583)
+2026-07-12 13:04:42.572 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:42.572 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002848 (task id = 3, ct ref = 57605583)
+2026-07-12 13:04:42.574 - [  8351] - [     8] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+nityEntitlementLicense.xml
+2026-07-12 13:04:42.574 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 14, ct ref = 2850755)
+2026-07-12 13:04:42.574 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:42.574 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002674 (task id = 14, ct ref = 2850755)
+2026-07-12 13:04:42.575 - [  8351] - [    17] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:54:17.4251939
+2026-07-12 13:04:42.575 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:04:42.576 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:54:17.4239877
+2026-07-12 13:04:44.216 - [  8351] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:04:46.177 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 15)
+2026-07-12 13:04:46.189 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:46.189 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 15, ct ref = 38665223)
+2026-07-12 13:04:46.189 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:04:46.189 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001808 (task id = 15, ct ref = 38665223)
+2026-07-12 13:04:46.190 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-32 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 13:04:46.246 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-33 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:04:47.369 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:06:19.489 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeHandler#1] Notification channel with sessionId: b614151aba69418b949af14ba0815ed8 is shutting down
+2026-07-12 13:06:19.489 - [  8351] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2026-07-12 13:06:19.489 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Detected client disconnect
+2026-07-12 13:06:19.489 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] End accepting requests
+2026-07-12 13:06:19.490 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #1)
+2026-07-12 13:06:19.490 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Last active session ended.
+2026-07-12 13:06:19.490 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Starting licensing client's exit timer
+2026-07-12 13:06:19.490 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 13:06:19.490 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server is shutting down (thread: 6)
+2026-07-12 13:06:19.491 - [  8351] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 13:06:19.495 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server has shutdown
+2026-07-12 13:06:19.497 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server is shutting down (thread: 6)
+2026-07-12 13:06:19.499 - [  8351] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server has shutdown
+2026-07-12 13:06:19.499 - [  8351] - [    10] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Releasing mutex Unity-LicenseClient-chie289-6000.5.3 (thread: 10)
+2026-07-12 13:06:19.549 - [  8351] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:07:45.807 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 16)
+2026-07-12 13:07:45.819 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:07:45.819 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 16, ct ref = 30756346)
+2026-07-12 13:07:45.819 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:07:45.820 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0003381 (task id = 16, ct ref = 30756346)
+2026-07-12 13:07:45.821 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-34 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 13:07:45.929 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-35 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:07:47.384 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:08:06.489 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-36 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:08:06.507 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-37 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:08:06.637 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #5)
+2026-07-12 13:08:06.637 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] new pipe session: 38eeaa228df049ef926b06cfb165ae03
+2026-07-12 13:08:06.637 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #4)
+2026-07-12 13:08:06.637 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] Start accepting requests
+2026-07-12 13:08:06.638 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] REQ-1 | Sending ApiErrorResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [505]:  Unsupported protocol version '1.18.1'.
+2026-07-12 13:08:06.638 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] Detected client disconnect
+2026-07-12 13:08:06.638 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] End accepting requests
+2026-07-12 13:08:06.638 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #4)
+2026-07-12 13:08:06.639 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] Disposing named pipe
+2026-07-12 13:08:06.639 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#4] Disposing named pipe
+2026-07-12 13:08:07.208 - [ 12560] - [     1] - INFO  - [Unity.Licensing.Client.Program] Command line arguments:  --namedPipe Unity-LicenseClient-chie289-6000.5.3
+2026-07-12 13:08:07.216 - [ 12560] - [     1] - INFO  - [Unity.Licensing.Client.Program] Analytics CorrelationId: bdfbde5f9872d7bdddffdc32d8a619eb
+2026-07-12 13:08:07.219 - [ 12560] - [    10] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] GlobalMutex Unity-LicenseClient-chie289-6000.5.3 created (on thread: 10)
+2026-07-12 13:08:07.222 - [ 12560] - [    11] - WARN  - [Unity.Licensing.Client.Services.Licensing.LicensingServiceConfiguration] Floating license server is not configured
+2026-07-12 13:08:07.226 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Starting named pipe server (on thread: 6)
+2026-07-12 13:08:07.228 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 1)
+2026-07-12 13:08:07.236 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server started
+2026-07-12 13:08:07.236 - [ 12560] - [    13] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 13:08:07.253 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Starting named pipe server (on thread: 6)
+2026-07-12 13:08:07.254 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server started
+2026-07-12 13:08:07.254 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #1)
+2026-07-12 13:08:07.363 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:07.366 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 1, ct ref = 36181605)
+2026-07-12 13:08:07.367 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:07.370 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0037752 (task id = 1, ct ref = 36181605)
+2026-07-12 13:08:07.375 - [ 12560] - [     9] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:08:07.376 - [ 12560] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Running in production mode
+2026-07-12 13:08:07.376 - [ 12560] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client product version: 1.18.1+9fbee8e
+2026-07-12 13:08:07.376 - [ 12560] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Client assembly version: 1.18.1.0
+2026-07-12 13:08:07.376 - [ 12560] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] File version: 1.18.1 (/home/chie289/Unity/Hub/Editor/6000.5.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.dll)
+2026-07-12 13:08:07.379 - [ 12560] - [     9] - INFO  - [Unity.Licensing.Client.CommandExecutors.Startup.ProgramInitializer] Current OS: Linux 7.0.0-27-generic #27-Ubuntu SMP PREEMPT_DYNAMIC Thu Jun 18 19:13:49 UTC 2026
+2026-07-12 13:08:07.390 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:08:07.410 - [ 12560] - [    11] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:07.411 - [ 12560] - [    11] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Start cleaning expired and inactive license file(s): 
+/home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:07.412 - [ 12560] - [    11] - INFO  - [Unity.Licensing.Client.Services.Replication.InactiveLicenseFileCleaner] Cleanup finished successfully, deleted 0 expired license file(s)
+2026-07-12 13:08:07.472 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Trying to update PACL ...
+2026-07-12 13:08:07.486 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Getting PACL from remote uri: "https://license.unity3d.com/licenses/v1/packages/acl" ...
+2026-07-12 13:08:07.498 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Local PACL revision: 51
+2026-07-12 13:08:07.503 - [ 12560] - [    21] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 13:08:07.510 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] new pipe session: 17cfb7b6600f49d8a29a8627a9abb2a4
+2026-07-12 13:08:07.512 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #1)
+2026-07-12 13:08:07.513 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Start accepting requests
+2026-07-12 13:08:07.576 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1)
+2026-07-12 13:08:07.601 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Handshake successful
+2026-07-12 13:08:07.603 - [ 12560] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #2)
+2026-07-12 13:08:07.604 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #1)
+2026-07-12 13:08:07.608 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31535998 seconds)
+2026-07-12 13:08:07.611 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  (null)
+2026-07-12 13:08:07.633 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:08:07.643 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-3 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:08:07.665 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-4 | Sending UpdateLicenseResponseV2 for request UpdateLicenseRequestV2 from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [202]:  Request accepted.
+2026-07-12 13:08:07.668 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:08:07.668 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-5 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:08:07.674 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2026-07-12 13:08:09.328 - [ 12560] - [     8] - WARN  - [PackageService.HttpRequests] Handled response: [304 | Not Modified | ] from request: [GET | https://license.unity3d.com/licenses/v1/packages/acl | ]
+2026-07-12 13:08:09.335 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageService] Skipping download. No difference between local and remote ETag (uri: "https://license.unity3d.com/licenses/v1/packages/acl", ETag: "12328dbb62b36aae92e9ee5f87191306")
+2026-07-12 13:08:09.336 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Successfully updated PACL file after 1 attempt(s). Next update in 24.00 hours.
+2026-07-12 13:08:09.338 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Package.PackageEnforcer] Loading remote PACL, revision: 51, version: 1.0
+2026-07-12 13:08:09.738 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Trying to write updated entitlement license file...
+2026-07-12 13:08:09.739 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Successfully updated license file
+2026-07-12 13:08:09.740 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:08:09.741 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] License file change detected. Reloading the resolver
+2026-07-12 13:08:09.741 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = FileWatcher, task id = 17)
+2026-07-12 13:08:09.745 - [ 12560] - [     8] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] ulf update failed. Details: No ULF license found.
+2026-07-12 13:08:09.745 - [ 12560] - [     8] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] floating update failed. Details: Unable to update floating licenses because the floating licensing is not enabled
+2026-07-12 13:08:09.746 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = UpdateLicenseOperation, task id = 2)
+2026-07-12 13:08:09.752 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:09.753 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 17, ct ref = 19163131)
+2026-07-12 13:08:09.753 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:09.753 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001630 (task id = 17, ct ref = 19163131)
+2026-07-12 13:08:09.753 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:08:09.755 - [ 12560] - [    21] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:08:09.755 - [ 12560] - [    21] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] File watcher is locked (count = 1). Skipping resolver reload
+2026-07-12 13:08:09.755 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:09.756 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 2, ct ref = 25049104)
+2026-07-12 13:08:09.756 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:08:09.756 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0003501 (task id = 2, ct ref = 25049104)
+2026-07-12 13:08:09.760 - [  7919] - [    25] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:50:50.2390468
+2026-07-12 13:08:09.790 - [ 12560] - [     8] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:08:09.810 - [ 12560] - [    14] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:50:50.1971399
+2026-07-12 13:08:12.290 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:08:34.775 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:08:34.775 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-6 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:08:37.296 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:08:46.074 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:08:46.075 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-7 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 0 entitlement groups and 34 free entitlements matching requested entitlement ids
+2026-07-12 13:08:46.658 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:08:46.659 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-8 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:08:47.299 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:09:10.615 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:09:10.615 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-9 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 0 entitlement groups and 57 free entitlements matching requested entitlement ids
+2026-07-12 13:09:12.304 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:09:28.104 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-38 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:09:32.406 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:09:45.886 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 18)
+2026-07-12 13:09:45.903 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:09:45.904 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 18, ct ref = 63092270)
+2026-07-12 13:09:45.904 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:09:45.904 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002209 (task id = 18, ct ref = 63092270)
+2026-07-12 13:09:45.905 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-39 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Success, found: 2 groups
+2026-07-12 13:09:45.994 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-40 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:09:47.450 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:09:50.505 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-41 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:09:50.532 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] REQ-42 | Sending EntitlementsResponse for request EntitlementsRequest from Hub 3.19.5 (LocalIPC/1.17.4) [200]:  Found 1 entitlements
+2026-07-12 13:09:50.698 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #6)
+2026-07-12 13:09:50.698 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] new pipe session: 07d811d6179641bd9b8ad25b2d24e366
+2026-07-12 13:09:50.699 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #5)
+2026-07-12 13:09:50.699 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] Start accepting requests
+2026-07-12 13:09:50.699 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] REQ-1 | Sending ApiErrorResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [505]:  Unsupported protocol version '1.18.1'.
+2026-07-12 13:09:50.700 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] Detected client disconnect
+2026-07-12 13:09:50.700 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] End accepting requests
+2026-07-12 13:09:50.700 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #5)
+2026-07-12 13:09:50.700 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] Disposing named pipe
+2026-07-12 13:09:50.700 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#5] Disposing named pipe
+2026-07-12 13:09:50.701 - [ 12560] - [    13] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #3)
+2026-07-12 13:09:50.704 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] new pipe session: 7eb238567e9f4e89aff2928a07dbd08c
+2026-07-12 13:09:50.705 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #2)
+2026-07-12 13:09:50.705 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Start accepting requests
+2026-07-12 13:09:50.706 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.HandshakeController] Received handshake from: UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1)
+2026-07-12 13:09:50.707 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-1 | Sending HandshakeResponse for request HandshakeRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Handshake successful
+2026-07-12 13:09:50.709 - [ 12560] - [    25] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Waiting for a connection (pipe #3)
+2026-07-12 13:09:50.710 - [ 12560] - [    23] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] A new client is connecting (pipe #2)
+2026-07-12 13:09:50.710 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.AccessTokenController] Got access token (expires in 31535999 seconds)
+2026-07-12 13:09:50.712 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-2 | Sending AccessTokenResponse for request AccessTokenRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  (null)
+2026-07-12 13:09:50.713 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:09:50.713 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-3 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:09:50.715 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-4 | Sending UpdateLicenseResponseV2 for request UpdateLicenseRequestV2 from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [202]:  Request accepted.
+2026-07-12 13:09:50.715 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Attempting to contact genesis update license api
+2026-07-12 13:09:50.716 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:09:50.717 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-5 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:09:52.324 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:09:52.461 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:09:53.650 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Trying to write updated entitlement license file...
+2026-07-12 13:09:53.651 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.Licensing.GenesisLicensingService] Successfully updated license file
+2026-07-12 13:09:53.651 - [ 12560] - [    26] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] ulf update failed. Details: No ULF license found.
+2026-07-12 13:09:53.652 - [ 12560] - [    26] - ERROR - [Unity.Licensing.Client.Communication.Controllers.UpdateLicenseControllerV2] floating update failed. Details: Unable to update floating licenses because the floating licensing is not enabled
+2026-07-12 13:09:53.652 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = UpdateLicenseOperation, task id = 3)
+2026-07-12 13:09:53.652 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:09:53.652 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] License file change detected. Reloading the resolver
+2026-07-12 13:09:53.652 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = FileWatcher, task id = 19)
+2026-07-12 13:09:53.653 - [ 12560] - [    24] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] OnLicenseDirUpdate
+2026-07-12 13:09:53.653 - [ 12560] - [    24] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] File watcher is locked (count = 1). Skipping resolver reload
+2026-07-12 13:09:53.657 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:09:53.658 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+tLicense.xml (task id = 3, ct ref = 52582485)
+2026-07-12 13:09:53.658 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:09:53.658 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 19, ct ref = 27099572)
+2026-07-12 13:09:53.658 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:09:53.658 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0001516 (task id = 3, ct ref = 52582485)
+2026-07-12 13:09:53.658 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000862 (task id = 19, ct ref = 27099572)
+2026-07-12 13:09:53.658 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:09:53.658 - [  7919] - [    27] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:49:06.3410899
+2026-07-12 13:09:53.659 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] OnEntitlementResolverUpdated, will restart timer
+2026-07-12 13:09:53.659 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Services.LicenseOfflineValidityEndingPeriodicNotifierService] Will execute periodic notification again in 22.14:49:06.3404717
+2026-07-12 13:10:02.603 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeHandler#1] Notification channel with sessionId: 04d5d2e51fac452d8d31a825bcc12b68 is shutting down
+2026-07-12 13:10:02.603 - [ 12560] - [    26] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2026-07-12 13:10:02.603 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Detected client disconnect
+2026-07-12 13:10:02.603 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] End accepting requests
+2026-07-12 13:10:02.603 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #1)
+2026-07-12 13:10:02.604 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 13:10:02.604 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 13:10:04.819 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #7)
+2026-07-12 13:10:04.820 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] new pipe session: 5edbd8f2840d49a3a4c488b20a903a9e
+2026-07-12 13:10:04.820 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #6)
+2026-07-12 13:10:04.820 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] Start accepting requests
+2026-07-12 13:10:04.836 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:10:04.837 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-6 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:10:04.849 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 20)
+2026-07-12 13:10:04.861 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:10:04.862 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 20, ct ref = 27888032)
+2026-07-12 13:10:04.862 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:10:04.862 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0002017 (task id = 20, ct ref = 27888032)
+2026-07-12 13:10:04.863 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] REQ-1 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from UnknownUserAgent (LocalIPC/(null)) [200]:  Success, found: 2 groups
+2026-07-12 13:10:04.917 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] Detected client disconnect
+2026-07-12 13:10:04.917 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] End accepting requests
+2026-07-12 13:10:04.917 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #6)
+2026-07-12 13:10:04.918 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] Disposing named pipe
+2026-07-12 13:10:04.918 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#6] Disposing named pipe
+2026-07-12 13:10:07.328 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:10:07.465 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:10:19.371 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:10:19.371 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-7 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 0 entitlement groups and 49 free entitlements matching requested entitlement ids
+2026-07-12 13:10:19.935 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:10:19.935 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-8 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 1 entitlement groups and 0 free entitlements matching requested entitlement ids
+2026-07-12 13:10:22.333 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:10:40.328 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.Controllers.EntitlementDetailsController] Finished handling EntitlementDetails request
+2026-07-12 13:10:40.328 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] REQ-9 | Sending EntitlementDetailsResponse for request EntitlementDetailsRequest from UnityEditor/6000.5.3f1 (Linux; U; Linux 7.0; en_US) (LocalIPC/1.18.1) [200]:  Found 0 entitlement groups and 73 free entitlements matching requested entitlement ids
+2026-07-12 13:10:42.337 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:10:45.463 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeHandler#2] Notification channel with sessionId: 9bd5b2a665014a14a2d7735d5611a639 is shutting down
+2026-07-12 13:10:45.463 - [ 12560] - [    12] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #2)
+2026-07-12 13:10:45.464 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Detected client disconnect
+2026-07-12 13:10:45.464 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] End accepting requests
+2026-07-12 13:10:45.464 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #2)
+2026-07-12 13:10:45.464 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Last active session ended.
+2026-07-12 13:10:45.465 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Starting licensing client's exit timer
+2026-07-12 13:10:45.465 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2026-07-12 13:10:45.465 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server is shutting down (thread: 6)
+2026-07-12 13:10:45.465 - [ 12560] - [    17] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#2] Disposing named pipe
+2026-07-12 13:10:45.466 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server has shutdown
+2026-07-12 13:10:45.467 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server is shutting down (thread: 6)
+2026-07-12 13:10:45.468 - [ 12560] - [     6] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server has shutdown
+2026-07-12 13:10:45.468 - [ 12560] - [    10] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Releasing mutex Unity-LicenseClient-chie289-6000.5.3 (thread: 10)
+2026-07-12 13:10:45.472 - [ 12560] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:10:47.469 - [  7919] - [.NET Long Running Task] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Waiting for a connection (pipe #8)
+2026-07-12 13:10:47.470 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] new pipe session: b92284b012664f3a853eda4a3f6888d8
+2026-07-12 13:10:47.471 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] A new client is connecting (pipe #7)
+2026-07-12 13:10:47.471 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] Start accepting requests
+2026-07-12 13:10:47.492 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Updating entitlement resolver (source = Unknown, task id = 21)
+2026-07-12 13:10:47.502 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.Helpers.LicenseFilesMapper] Successfully parsed license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:10:47.502 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Rebuilding resolvers from local files:  /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml (task id = 21, ct ref = 5249902)
+2026-07-12 13:10:47.502 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processing license /home/chie289/.config/unity3d/Unity/licenses/UnityEntitlementLicense.xml
+2026-07-12 13:10:47.502 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Services.EntitlementResolverProvider] Processed 1 license files in 00:00:00.0000886 (task id = 21, ct ref = 5249902)
+2026-07-12 13:10:47.503 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] REQ-1 | Sending EntitlementGroupsDetailsResponse for request EntitlementGroupsDetailsRequest from UnknownUserAgent (LocalIPC/(null)) [200]:  Success, found: 2 groups
+2026-07-12 13:10:47.534 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] Detected client disconnect
+2026-07-12 13:10:47.535 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] End accepting requests
+2026-07-12 13:10:47.535 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #7)
+2026-07-12 13:10:47.535 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] Disposing named pipe
+2026-07-12 13:10:47.535 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#7] Disposing named pipe
+2026-07-12 13:10:52.473 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 13:59:17.367 - [  7919] - [     3] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Downloaded remote config from: "https://public-cdn.cloud.unity3d.com/config/production"
+2026-07-12 13:59:17.380 - [  7919] - [     3] - INFO  - [Unity.Licensing.Client.Configuration.ClientConfigurationLoader] Unity remote config is updated: "/home/chie289/.config/unity3d/Unity/config/production.json"
+2026-07-12 13:59:17.680 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)
+2026-07-12 14:31:28.720 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeHandler#1] Notification channel with sessionId: 480a6d9b196e4b10ab14e01f66f8f297 is shutting down
+2026-07-12 14:31:28.720 - [  7919] - [    31] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Connection closed (pipe #1)
+2026-07-12 14:31:28.720 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Detected client disconnect
+2026-07-12 14:31:28.720 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] End accepting requests
+2026-07-12 14:31:28.720 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Connection closed (pipe #1)
+2026-07-12 14:31:28.721 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Services.LicensingOrchestrator] Last active session ended.
+2026-07-12 14:31:28.721 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Starting licensing client's exit timer
+2026-07-12 14:31:28.721 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 14:31:28.721 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server is shutting down (thread: 8)
+2026-07-12 14:31:28.721 - [  7919] - [    12] - INFO  - [Unity.Licensing.Client.Communication.ApiPipeHandler#1] Disposing named pipe
+2026-07-12 14:31:28.723 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.MultiClientPipeServer] Named pipe server has shutdown
+2026-07-12 14:31:28.724 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server is shutting down (thread: 8)
+2026-07-12 14:31:28.725 - [  7919] - [     8] - INFO  - [Unity.Licensing.Client.Communication.Notifications.NotificationsPipeServer] Named pipe server has shutdown
+2026-07-12 14:31:28.725 - [  7919] - [    10] - INFO  - [Unity.Licensing.Client.PipeServerExecutor] Releasing mutex Unity-LicenseClient-chie289 (thread: 10)
+2026-07-12 14:31:28.752 - [  7919] - [OpenTelemetry-BatchExportProcessor-BigQueryExporter] - ERROR - [Unity.Licensing.Analytics.Exporters.BigQueryExporter] Connection refused (cdp.cloud.unity3d.com:443)

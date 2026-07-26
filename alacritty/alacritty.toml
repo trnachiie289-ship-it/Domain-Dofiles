@@ -1,5 +1,5 @@
 [colors.primary]
-background = "#000000"
+background = "#14161B"
 foreground = "#ffffff"
 
 [window]
@@ -49,8 +49,8 @@ action = "Paste"
 
 # New window
 [[keyboard.bindings]]
-key = "p"
-mods = "Control"
+key = "o"
+mods = "Control|Shift"
 action = "CreateNewWindow"
 
 # Fullscreen
@@ -76,3 +76,32 @@ key = "Minus"
 mods = "Control"
 action = "DecreaseFontSize"
 
+[[keyboard.bindings]]
+key = "h" 
+mods = "Alt"
+chars = "\u001bh"
+
+[[keyboard.bindings]]
+key = "j"
+mods = "Alt"
+chars = "\u001bj"
+
+[[keyboard.bindings]]
+key = "k"
+mods = "Alt"
+chars = "\u001bk"
+
+[[keyboard.bindings]]
+key = "l"
+mods = "Alt"
+chars = "\u001bl"
+
+[[keyboard.bindings]]
+key = "G"
+mods = "Control"
+chars = "\u007f"   
+
+[[keyboard.bindings]]
+key = "H"
+mods = "Control"
+chars = "\u001bH"
